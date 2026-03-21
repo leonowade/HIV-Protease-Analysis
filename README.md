@@ -76,11 +76,11 @@ The pipeline produces:
 ### Protease Structure
 ![Protease structure](results/protease_structure.png)
 
-# 🧬 HIV-1 Protease Mechanicity & Conservation Report
+### 🧬 HIV-1 Protease Mechanicity & Conservation Report
 
 This report identifies 'Mechanical Gears': residues that exhibit high structural flexibility across Apo (1HHP), Holo (1IDB), and Mutant (1KJF) states, yet remain evolutionarily static. These represent prime targets for durable 'Block-and-Lock' interventions.
 
-## ⚙️ Top Mechanical Constraints
+#### ⚙️ Top Mechanical Constraints
 |   res_no | res_name   |   consensus_flexibility |   normalized_entropy |   gap_fraction |   mechanicity_score |
 |---------:|:-----------|------------------------:|---------------------:|---------------:|--------------------:|
 |       40 | ASN        |                1.8628   |            0         |       0        |            1        |
@@ -99,7 +99,7 @@ This report identifies 'Mechanical Gears': residues that exhibit high structural
 |       45 | UNK        |                0.937063 |            0.0925027 |       0.030303 |            0.664632 |
 |       14 | UNK        |                0.86254  |            0.0763192 |       0        |            0.656585 |
 
-## 🔍 Strategic Interpretation
+#### 🔍 Strategic Interpretation
 - **Low Entropy + High Flex:** These are likely hinges or 'elbows' of the protein.
 - **High Gap Fraction:** Use caution; low entropy may be due to poor sequence coverage.
 - **Targeting Recommendation:** Focus on residues with `mechanicity_score > 0.8` for dCas9-KRAB guidance.
